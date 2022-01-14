@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+
+/* Globales */
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid #686767;
+}
+
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(../img/Principal1.jpg);
+    height: 450px;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Header y Navegaci[on*/
+
+.Nombre-sitio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+span {
+    color: #037bc0;
+}
+
+
+/** Box Model **/
+
+.sobre-nosotros {
+    padding: 30px;
+}
+
+
+/** Categorias**/
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    gap: 20px;
+}
+
+.categoria a {
+    font-size: 18px;
+    padding: 18px;
+    display: block;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+}
+
+.nav-principal a:hover {
+    color: #037bc0;
+}
